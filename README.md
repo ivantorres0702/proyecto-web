@@ -41,7 +41,7 @@ LMSGI UD 2. HTML 5
 ![Resultado de validación RSS](img/validacion-rss.png)
 ## Dificultades encontradas
 Describe al menos tres dificultades reales:
-1. Primera dificultad y cómo se resolvió.
+1. El navegador estaba mal y tuve que arreglarlo en todas las paginas
 2. Segunda dificultad y cómo se resolvió.
 3. Tercera dificultad y cómo se resolvió.
 LMSGI UD 2. HTML 5
