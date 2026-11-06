@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150" width="100%" height="100%">
+  <defs>
+    <!-- Degradado para el mando/bocadillo -->
+    <linearGradient id="controllerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF007F" />
+      <stop offset="100%" stop-color="#7000FF" />
+    </linearGradient>
+    
+    <!-- Degradado para la segunda mitad del texto -->
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F0FF" />
+      <stop offset="100%" stop-color="#0080FF" />
+    </linearGradient>
+  </defs>
+
+  <!-- Fondo oscuro opcional (puedes borrar esta línea si quieres fondo transparente) -->
+  <rect width="100%" height="100%" fill="#12151E" rx="15" />
+
+  <g transform="translate(20, 25)">
+    <!-- Cola del bocadillo de diálogo (hace que el mando parezca un mensaje) -->
+    <polygon points="25,75 5,100 45,85" fill="url(#controllerGrad)" />
+    
+    <!-- Cuerpo del Mando -->
+    <rect x="10" y="10" width="120" height="80" rx="40" fill="url(#controllerGrad)" />
+    
+    <!-- Cruceta (D-Pad) -->
+    <path d="M 35 40 h 8 v -8 h 8 v 8 h 8 v 8 h -8 v 8 h -8 v -8 h -8 z" fill="#FFFFFF" />
+    
+    <!-- Botones de Acción (Estilo ABXY) -->
+    <circle cx="95" cy="35" r="6" fill="#00F0FF" />
+    <circle cx="110" cy="50" r="6" fill="#00F0FF" />
+    <circle cx="80" cy="50" r="6" fill="#00F0FF" />
+    <circle cx="95" cy="65" r="6" fill="#00F0FF" />
+    
+    <!-- Joystick Analógico -->
+    <circle cx="55" cy="65" r="10" fill="#000000" opacity="0.3" />
+    <circle cx="55" cy="65" r="5" fill="#FFFFFF" />
+  </g>
+
+  <!-- Texto Principal del Logo -->
+  <text x="170" y="90" font-family="&#39;Segoe UI&#39;, Roboto, Helvetica, Arial, sans-serif" font-weight="900" font-size="56" fill="#FFFFFF" letter-spacing="-1.5">
+    Game<tspan fill="url(#textGrad)">Blog</tspan>
+  </text>
+
+  <!-- Texto Secundario (Eslogan) -->
+  <text x="175" y="120" font-family="&#39;Courier New&#39;, Courier, monospace" font-weight="bold" font-size="14" fill="#8892B0" letter-spacing="4">
+    NOTICIAS &amp; REVIEWS
+  </text>
+</svg>

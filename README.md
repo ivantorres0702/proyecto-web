@@ -1,5 +1,5 @@
-# CULTURA Y CURIOSIDADES DE LOS VIDEOJUEGOS
-Esta web tratará sobre 
+# BIOTECNOLOGIA INDUSTRIAL
+Esta web tratará sobre el surgimiento y evolucion de la biotecnologia industrial.
 ## Autoría
 - Nombre y apellidos: Iván Torres Salas
 - Curso: 1ºDAM A
