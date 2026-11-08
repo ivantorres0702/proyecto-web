@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100" width="400" height="200">
+  <rect width="200" height="100" fill="black" />
+  
+  <!-- Pala izquierda animada -->
+  <rect x="10" y="30" width="5" height="40" fill="white">
+    <animate attributeName="y" values="30; 10; 50; 30" dur="4s" repeatCount="indefinite" />
+  </rect>
+  
+  <!-- Pala derecha animada -->
+  <rect x="185" y="30" width="5" height="40" fill="white">
+    <animate attributeName="y" values="30; 50; 10; 30" dur="4s" repeatCount="indefinite" />
+  </rect>
+  
+  <!-- Pelota rebotando -->
+  <rect x="20" y="45" width="5" height="5" fill="white">
+    <animate attributeName="x" values="20; 175; 20" dur="2s" repeatCount="indefinite" />
+    <animate attributeName="y" values="45; 20; 70; 45" dur="4s" repeatCount="indefinite" />
+  </rect>
+</svg>
