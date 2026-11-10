@@ -43,7 +43,7 @@ LMSGI UD 2. HTML 5
 Describe al menos tres dificultades reales:
 1. El navegador estaba mal y tuve que arreglarlo en todas las paginas
 2. Al intentar agrupar por categorias la tabla el tfoot no se ajustaba a la tabla devido a los rowspan y tuve que colocar una celda vacia en el tfoot
-3. Tercera dificultad y cómo se resolvió.
+3. No se visualizaba el video de youtube por lo que tuve que cambiar la url y sustituir una parte por /embed/
 LMSGI UD 2. HTML 5
 ## Decisiones técnicas
 Explica brevemente:

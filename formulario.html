@@ -22,7 +22,104 @@
         </nav>
    </header>
    <main>
+        <form action="formulario.php" method="post" name="formularioJuegos">
+            <h2>Encuesta de preferencias</h2>
+            <fieldset>
+                <legend>Datos personales</legend>
+                <p>
+                    <label for="nombre">Nombre:* </label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </p>
+                <p>
+                    <label for="apellidos">Apellidos:* </label>
+                    <input type="text" id="apellidos" name="apellidos" required>
+                </p>
+                <p>
+                    <label for="dni">DNI:* </label>
+                    <input type="text" id="dni" name="dni" pattern="[0-9]{8}{a-zA-Z}" required>
+                </p>
+                <p>
+                    <label for="edad">Edad:* </label>
+                    <input type="number" id="edad" name="edad" min="16" max="120" required>
+                </p>
+                <p>
+                    <label for="fecha">Fecha de nacimiento:* </label>
+                    <input type="date" id="fecha" name="fecha" required>
+                </p>
+                <p>
+                    <label for="email">Correo electronico:* </label>
+                    <input type="email" name="email" id="email" required>
+                </p>
+                <p>
+                    <label for="contraseña">Contraseña:* </label>
+                    <input type="password" id="contraseña" name="contraseña" required>
+                </p>
 
+            </fieldset>
+            <fieldset>
+                <legend>Encuesta</legend>
+                <p>Marca los juegos que crees que reservaras o jugaras en su salida </p>
+                <p>
+                    <input type="radio" id="opcion1" name="opcion1">
+                    <label for="opcion1">The legend of Zelda Ocarina of Time Remake</label>
+                    <input type="radio" id="opcion2" name="opcion2" checked>
+                    <label for="opcion2">Grand Theft Auto VI</label>
+                    <input type="radio" id="opcion3" name="opcion3">
+                    <label for="opcion3">OH DEMON! Fix on my TV</label>
+                    <input type="radio" id="opcion4" name="opcion4">
+                    <label for="opcion4">Rayman Legend Retold</label>
+                    <input type="radio" id="opcion5" name="opcion5">
+                    <label for="opcion1">Aeterna Lucids</label>
+                    
+                </p>
+                <p>¿Que consola prefieres?</p>
+                <p>
+                    <label for="consola"></label>
+                    <select name="plataforma" id="plataforma">
+                        <option value="play">PlayStation5</option>
+                        <option value="xbox">Xbox Series X/S</option>
+                        <option value="nintendo">Nintendo Switch 2</option>
+                    </select>                 
+                </p>
+                <p>
+                    <p>¿Cual es tu genero favorito?</p>
+                    <input type="checkbox" id="accion" name="accion">
+                    <label for="accion">Accion</label>
+                    <input type="checkbox" id="aventuras" name="aventuras">
+                    <label for="aventuras">Aventuras</label>
+                    <input type="checkbox" id="terror" name="terror">
+                    <label for="terror">Terror</label>
+                    <input type="checkbox" id="rpg" name="rpg">
+                    <label for="rpg">RPG</label>
+                    <input type="checkbox" id="deportes" name="deportes">
+                    <label for="deportes">Deportes</label>
+                    <input type="checkbox" id="estrategia" name="estrategia">
+                    <label for="estrategia">Estrategia</label>
+                    <input type="checkbox" id="lucha" name="lucha">
+                    <label for="lucha">Lucha</label>
+                </p>
+                <p>
+                    <label for="horas">Horas de juego semanales: </label>
+                    <output name="minimo">0</output>
+                    <input type="range" min="0" max="40+" step="2" value="20">
+                    <output name="maximo">+40</output>
+                </p>
+                <p>
+                    <p>Opinion de tu videojuego favorito</p>
+                    <textarea name="opinion" id="opinion" placeholder="Escriba aqui: "></textarea>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Concurso de dibujos sobre tematica videojuegos</legend>
+                <label for="dibujo">Introduzca el dibujo en formato jpg, png o jpeg</label>
+                <input type="file" accept=".jpg , .png , .jpeg" id="dibujo" name="dibujo">
+            </fieldset>
+            <fieldset>
+                <button type="submit">Enviar</button>
+                <button type="reset">Borrar</button>
+            </fieldset>
+        </form>
+        <strong>Es obligatorio rellenar todos los campos con *</strong>
    </main>
    <footer>
         <p><small>&copy; 2026 Iván Torres Salas. Todos los derechos reservados.</small></p>            
