@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>GameBlog</title>
+        <link>https://github.com/ivantorres0702/proyecto-web.git</link>
+        <description>Esta pagina tratara sobre videojuegos, su historia, noticias, rankings, etc.</description>
+        <language>es</language>
+        <item>
+            <title>Título del primer contenido</title>
+            <link>https://github.com/ivantorres0702/proyecto-web/blob/main/blog.html</link>
+            <guid>https://github.com/ivantorres0702/proyecto-web/blob/main/blog.html</guid>
+            <pubDate>Mon, 02 Nov 2026 10:00:00 +0100</pubDate>
+            <description>En este apartado se hablaran diversas noticias y reviews de videojuegos</description>
+        </item>
+        <item>
+            <title>Consolas</title>
+            <link>https://github.com/ivantorres0702/proyecto-web/blob/main/tabla.html</link>
+            <guid>https://github.com/ivantorres0702/proyecto-web/blob/main/tabla.html</guid>
+            <pubDate>Tue, 03 Nov 2026 10:00:00 +0100</pubDate>
+            <description>En esta pagina se comparan las consolas actuales del mercado</description>
+        </item>
+        <item>
+            <title>Mejores Videojuegos</title>
+            <link>https://github.com/ivantorres0702/proyecto-web/blob/main/galeria.html</link>
+            <guid>https://github.com/ivantorres0702/proyecto-web/blob/main/galeria.html</guid>
+            <pubDate>Wed, 04 Nov 2026 10:00:00 +0100</pubDate>
+            <description>Aqui se profundiza mas en los mejores videojuegos de la historia</description>
+        </item>
+        <item>
+            <title>Inicio</title>
+            <link>https://github.com/ivantorres0702/proyecto-web/blob/main/index.html</link>
+            <guid>https://github.com/ivantorres0702/proyecto-web/blob/main/index.html</guid>
+            <pubDate>Wed, 04 Nov 2026 10:00:00 +0100</pubDate>
+            <description>La pagina inicial de la web</description>
+        </item>
+        <item>
+            <title>Encuesta</title>
+            <link>https://github.com/ivantorres0702/proyecto-web/blob/main/formulario.html</link>
+            <guid>https://github.com/ivantorres0702/proyecto-web/blob/main/formulario.html</guid>
+            <pubDate>Wed, 04 Nov 2026 10:00:00 +0100</pubDate>
+            <description>Una encuesta de datos personales, preferencias y gustos</description>
+        </item>
+    </channel>
+</rss>

@@ -7,6 +7,7 @@
     <title>Mejores Videojuegos</title>
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="icon" href="img/favicon.svg">
+    <link rel="alternate" type="application/rss+xml" title="RSS de Mi Web de Videojuegos" href="rss.xml">
 </head>
 
 <body>
@@ -25,14 +26,14 @@
         </nav>
     </header>
     <main>
-        <h2>Top 10 mejores videojuegos de la historia</h2>
+        <h1>Top 10 mejores videojuegos de la historia</h1>
         <ol>
             <li>
                 <h2>1. The Legend of Zelda Ocarina of Time (1998)</h2>
                 <figure>
                     <img src="img/TheLegendofZeldaOcarinaofTime3D.jpg"
-                        alt="Portada del remake de the legend of Zelda ocarina of time 3DS" width="600px"
-                        height="300px">
+                        alt="Portada del remake de the legend of Zelda ocarina of time 3DS" width="600"
+                        height="300">
                     <figcaption>
                         <small>© Nintendo. Imagen utilizada bajo uso legítimo con fines informativos.</small>
                     </figcaption>
@@ -41,7 +42,7 @@
             <li>
                 <figure>
                     <h2>2. Tetris (1984)</h2>
-                    <img src="img/tetris.png" alt="Logotipo de tetris" width="600px" height="350px">
+                    <img src="img/tetris.png" alt="Logotipo de tetris" width="600" height="350">
                     <figcaption>
                         <small>© Tetris Holding. Imagen utilizada bajo uso legítimo con fines informativos.</small>
                     </figcaption>
@@ -51,7 +52,7 @@
                 <figure>
                     <h2>3. Super Mario 64 (1996)</h2>
                     <img src="img/Super_Mario_64_DS_logo.webp" alt="Portada de super mario 64 de Nintendo 64"
-                        width="600px" height="300px">
+                        width="600" height="300">
                     <figcaption>
                         <small>© Nintendo. Imagen utilizada bajo uso legítimo con fines informativos.</small>
                     </figcaption>
@@ -61,7 +62,7 @@
             <li>
                 <figure>
                     <h2>4. Half Life 2 (2004)</h2>
-                    <img src="img/halflife2.jpg" alt="Portada alternativa de Half Life 2" width="600px" height="350px">
+                    <img src="img/halflife2.jpg" alt="Portada alternativa de Half Life 2" width="600" height="350">
                     <figcaption>
                         <small>© Valve Corporation. Imagen utilizada bajo uso legítimo con fines informativos.</small>
                     </figcaption>
@@ -71,7 +72,7 @@
             <li>
                 <figure>
                     <h2>5. Minecraft (2009)</h2>
-                    <img src="img/minecraft.png" alt="Icono de minecraft" width="350px" height="350px">
+                    <img src="img/minecraft.png" alt="Icono de minecraft" width="350" height="350">
                     <figcaption>
                         <small>© Mojang Studios / Microsoft. Imagen utilizada bajo uso legítimo con fines
                             informativos.</small>
@@ -81,7 +82,7 @@
             <li>
                 <figure>
                     <h2>6. Grand Theft Auto V (2013)</h2>
-                    <img src="img/gtav.webp" alt="Imagen de diseño de arte GTA 5" width="600px" height="350px"
+                    <img src="img/gtav.webp" alt="Imagen de diseño de arte GTA 5" width="600" height="350"
                         loading="lazy">
                     <figcaption>
                         <small>© Rockstar Games. Imagen utilizada bajo uso legítimo con fines informativos.</small>
@@ -91,7 +92,7 @@
             <li>
                 <figure>
                     <h2>7. Portal 2 (2011)</h2>
-                    <img src="img/portal2.jpg" alt="Portada de portal 2" width="600px" height="350px" loading="lazy">
+                    <img src="img/portal2.jpg" alt="Portada de portal 2" width="600" height="350" loading="lazy">
                     <figcaption>
                         <small>© Valve Corporation. Imagen utilizada bajo uso legítimo con fines informativos.</small>
                     </figcaption>
@@ -100,7 +101,7 @@
             <li>
                 <figure>
                     <h2>8. The Witcher 3 (2015)</h2>
-                    <img src="img/thewitcher3.jpg" alt="Portada de The Witcher 3 Wild Hunt" width="600px" height="350px"
+                    <img src="img/thewitcher3.jpg" alt="Portada de The Witcher 3 Wild Hunt" width="600" height="350"
                         loading="lazy">
                     <figcaption>
                         <small>© CD PROJEKT RED. Imagen utilizada bajo uso legítimo con fines informativos.</small>
@@ -110,7 +111,7 @@
             <li>
                 <figure>
                     <h2>Pac-Man (1980)</h2>
-                    <img src="img/pacman.svg" alt="Logotipo de pac-man" width="600px" height="300px" loading="lazy">
+                    <img src="img/pacman.svg" alt="Logotipo de pac-man" width="600" height="300" loading="lazy">
                     <figcaption>
                         <small>© Bandai Namco Entertainment. Imagen utilizada bajo uso legítimo con fines
                             informativos.</small>
@@ -120,35 +121,31 @@
             <li>
                 <figure>
                     <h2>10. Pong (1972)</h2>
-                    <img src="img/pong.svg" alt="Animacion de videojuego pong pasandose la pelota" width="600px"
-                        height="300px" loading="lazy">
+                    <img src="img/pong.svg" alt="Animacion de videojuego pong pasandose la pelota" width="600"
+                        height="300" loading="lazy">
                     <figcaption>
                         <small>© Atari. Imagen utilizada bajo uso legítimo con fines informativos.</small>
                     </figcaption>
                 </figure>
             </li>
         </ol>
-        <video controls poster="img/postervideo.jpg"
-            alt="Video para profundizar mas en los mejores juegos de la historia">
+        <video controls poster="img/postervideo.jpg">
             <source src="videos/topvideojuegos.mp4" type="video/mp4">
             <source src="videos/topvideojuegos.webm" type="video/webm">
-            <track src="subtitulos/subtitulosespañol.vtt" kind="subtitles" default>
-            </track>
+            <track src="subtitulos/subtitulosespañol.vtt" kind="subtitles" default>       
             <track src="subtitulos/subtitulosingles.vtt" kind="subtitles">
-            </track>
         </video>
         <section>
             <h2>¿Como se evaluan los videojuegos?</h2>
-            <iframe src="https://www.youtube.com/embed/MCQz4n2_RiI" frameborder="0" title="Como evaluan los juegos">
-                <a href="https://youtu.be/MCQz4n2_RiI?si=kmXqubM-0-Ocww_C">Haz click para ver el video</a>
-            </iframe>
+            <iframe src="https://www.youtube.com/embed/MCQz4n2_RiI" title="Como evaluan los juegos"></iframe>                            
+            <a href="https://youtu.be/MCQz4n2_RiI?si=kmXqubM-0-Ocww_C"></a>
             <h2>¿Te interesaria ir al museo del videojuego?</h2>
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3198.0468154737987!2d-4.422678125458837!3d36.72143687226968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f752321d41b9%3A0x4633cbf61588fbb5!2sOXO%20Museo%20M%C3%A1laga!5e0!3m2!1ses!2ses!4v1794153322450!5m2!1ses!2ses"
                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="strict-origin-when-cross-origin">
-                <a href="https://maps.app.goo.gl/cdJDHUZNijJ88wXq6">Ir a google maps</a>
+                referrerpolicy="strict-origin-when-cross-origin">                
             </iframe>
+            <a href="https://maps.app.goo.gl/cdJDHUZNijJ88wXq6"></a>
         </section>
         <img src="img/mapa.jpg" usemap="#consolas"
             alt="Mapa de seleccion de consola, a la izquierda play station seguido de xbox y nintendo">
@@ -174,11 +171,12 @@
         </section>
     </main>
     <footer>
+        <a href="./rss.xml" target="_blank" title="Nuestras noticias en RSS">Suscribirse al RSS</a>
         <p><small>&copy; 2026 Iván Torres Salas. Todos los derechos reservados.</small></p>
         <address>
             Contacto:<a href="mailto:itorsal0702@ieszaidinvergeles.org"> itorsal0702@ieszaidinvergeles.org</a>
         </address>
-        <p>Ultima modificación <time datetime="06-11-2026">6 de noviembre de 2026</time></p>
+        <p>Ultima modificación <time datetime="2026-11-11">11 de noviembre de 2026</time></p>
     </footer>
 </body>
 

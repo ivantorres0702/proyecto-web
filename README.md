@@ -48,9 +48,17 @@ LMSGI UD 2. HTML 5
 ## Decisiones técnicas
 Explica brevemente:
 - Cómo has organizado los archivos.
+    Todos los archivos multimedia y la hoja de estilos han sido guardados en sus respectivas carpetas mientras que la web y el xml se encuentra en la raiz del proyecto
 - Qué partes de la plantilla se repiten.
+    Todos los head menos la etiqueta title se repiten, footer es exactamente igual en todas las paginas y el header(el navegador)se repite en todas tambien.
 - Qué cambia en cada página.
+    Cambia el contenido del body
 - Por qué has elegido determinados formatos de imagen.
+    Png: Para imagenes con fondo transparente que le den una mejor apariencia para la web
+    Svg: Para simplificar el logo y que sea elegante y sencillo
+    Jpg: Para las capturas de videojuegos que utilizan muchos colores y sombras complejas sin pesar demasiado
+    WebP: Esta bien adaptado a webs y admite transparencia
 - Cómo has utilizado rutas relativas.
+    Usando "./"
 - Cómo has preparado el proyecto para la siguiente práctica de CSS.
 ## Fuentes y licencias
