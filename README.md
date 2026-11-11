@@ -4,7 +4,7 @@ Esta web tratará sobre el surgimiento y evolucion de la biotecnologia industria
 - Nombre y apellidos: Iván Torres Salas
 - Curso: 1ºDAM A
 - Módulo: Lenguaje de marcas
-- Fecha: 
+- Fecha: 11/11/2026
 ## Sitio publicado
 - Web en GitHub Pages: [Abrir sitio](URL-DE-GITHUB-PAGES)
 - Repositorio: [Abrir repositorio](URL-DEL-REPOSITORIO)
@@ -34,7 +34,12 @@ LMSGI UD 2. HTML 5
 - Canal RSS.
 ## Validación
 ### HTML
-![Resultado de validación HTML](img/validacion-html.png)
+![Resultado de validación HTML](img/validacion-index.png)
+![Resultado de validación HTML](img/validacion-galeria.png)
+![Resultado de validación HTML](img/validacion-blog.png)
+![Resultado de validación HTML](img/validacion-formulario.png)
+![Resultado de validación HTML](img/validacion-tabla.png)
+
 ### CSS
 ![Resultado de validación CSS](img/validacion-css.png)
 ### RSS
@@ -61,4 +66,28 @@ Explica brevemente:
 - Cómo has utilizado rutas relativas.
     Usando "./"
 - Cómo has preparado el proyecto para la siguiente práctica de CSS.
+    Segmentando bien la estructura para que la realizacion del css sea mas personalizable y sencilla
 ## Fuentes y licencias
+The Legend of Zelda: Ocarina of Time 3D - © Nintendo.
+
+Tetris - © Tetris Holding.
+
+Super Mario 64 - © Nintendo.
+
+Half-Life 2 - © Valve Corporation.
+
+Minecraft - © Mojang Studios / Microsoft.
+
+Grand Theft Auto V - © Rockstar Games.
+
+Portal 2 - © Valve Corporation.
+
+The Witcher 3: Wild Hunt - © CD PROJEKT RED.
+
+Pac-Man - © Bandai Namco Entertainment.
+
+Pong - © Atari.
+
+Final Fantasy VII (1997): Tema "One-Winged Angel" (Square Enix).
+
+NieR: Automata (2017): Tema "Weight of the World / Kowareta Sekai no Uta" (Square Enix / PlatinumGames).
